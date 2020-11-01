@@ -9,15 +9,34 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>controller-api</artifactId>
+  <artifactId>service-impl</artifactId>
 
   <dependencies>
+
     <dependency>
       <groupId>com.reyapr</groupId>
       <artifactId>entity</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
-  </dependencies>
 
+    <dependency>
+      <groupId>com.reyapr</groupId>
+      <artifactId>service-api</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.reyapr</groupId>
+      <artifactId>dao</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.reyapr</groupId>
+      <artifactId>library</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+
+  </dependencies>
 
 </project>
